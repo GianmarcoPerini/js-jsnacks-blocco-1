@@ -1,4 +1,4 @@
-    //SOMMA CON FOR E WHILE
+    // SOMMA CON FOR E WHILE
 
 /**
  *  let somma = 0;
@@ -41,3 +41,24 @@
  */
 
 
+    // PAREGGIATORE ARRAY
+/** 
+ *  let listaNomi = ["Adam", "Alex", "Aaron", "Ben", "Carl", "Dan"] 
+ *  let listaCognomi = ["Anderson", "Ashwoon", "Aikin", "Bateman", "Bongard", "Bowers", "Boyd", "Cannon", "Cast", "Deitz", "Dewalt", "Ebner", "Frick", "Hancock", "Haworth", "Hesch", "Hoffman"]
+ *  let i = 0
+ *
+ *  while (listaNomi.length < listaCognomi.length){
+ *      listaNomi.push(listaCognomi[Math.floor(Math.random()*listaCognomi.length)])
+ *      i++
+ *  }
+ *
+ *  while (listaNomi.length > listaCognomi.length){
+ *      listaCognomi.push(listaNomi[Math.floor(Math.random()*listaNomi.length)])
+ *      i++
+ *  }
+ *
+ *  for(n = 0; n < listaNomi.length; n++){
+ *      document.getElementById("lista-nomi").innerHTML += "<li>" + listaNomi[n] + "</li>"
+ *      document.getElementById("lista-cognomi").innerHTML += "<li>" + listaCognomi[n] + "</li>"
+ *  }
+ */
